@@ -22,6 +22,11 @@ pip3 install virtualenv
 python3 -m virtualenv env
 source env/bin/activate
 
+or create virtualenv in windows
+pip install virtualenv
+virtualenv myenv
+myenv\Scripts\activate
+
 rm -rf mydir
 
 stes:
